@@ -4,7 +4,15 @@ var order = '';
 
 // build a function to ask questions
 
-function question() {
+function question(questionText, selection) {
+    //what our function will do
+    order = prompt("What do you want to eat?");
+    toppings = prompt("What kinds of toppings would you like on that?");
+
+
+
+
+
   // your code goes here
 }
 
@@ -12,4 +20,4 @@ function question() {
 question();
 
 // output their order
-document.write("<p>You ordered: " + order + "<p>");
+document.write("<p>You ordered: " + order + "with" + toppings <p>");
