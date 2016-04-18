@@ -20,4 +20,4 @@ function question(questionText, selection) {
 question();
 
 // output their order
-document.write("<p>You ordered: " + order + "with" + toppings <p>");
+document.write("<p>You ordered " + order + " with " +toppings + " on the side.<p>");
